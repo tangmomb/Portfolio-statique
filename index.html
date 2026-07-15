@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Tanguy M. : vidéo, photographie, graphisme et développement web.">
+    <meta name="theme-color" content="#252525">
+    <title>Portfolio - Tanguy M</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div id="loading" class="loading-container" role="status" aria-live="polite">
+      <div id="loading-value" class="loading-text">0%</div>
+      <div class="progress-bar-container" aria-hidden="true">
+        <div id="loading-bar" class="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <div id="site" class="page-wrapper is-hidden">
+      <header id="sticky-header" class="sticky-header">
+        <nav class="sticky-header-nav" aria-label="Navigation principale">
+          <button class="button button-outline button-sm" data-scroll="home">Accueil</button>
+          <button class="button button-outline button-sm" data-scroll="videos">Vidéos</button>
+          <button class="button button-outline button-sm" data-scroll="photos">Photos</button>
+          <button class="button button-outline button-sm" data-scroll="graphic">Graphisme</button>
+          <button class="button button-outline button-sm" data-scroll="websites">Développement</button>
+          <button class="button button-purple button-sm sticky-contact" data-scroll="about">Contact</button>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="section">
+          <div class="container">
+            <div class="section-content">
+              <div class="inner-content">
+                <h1 class="title-hero">Bonjour</h1>
+                <p class="subtitle">En quoi puis-je vous aider ?</p>
+                <div class="hero-buttons">
+                  <button class="button button-outline button-lg" data-scroll="videos">Vidéos</button>
+                  <button class="button button-outline button-lg" data-scroll="photos">Photos</button>
+                  <button class="button button-outline button-lg" data-scroll="graphic">Graphisme</button>
+                  <button class="button button-outline button-lg" data-scroll="websites">Développement</button>
+                  <button class="button button-purple button-lg hero-contact-btn" data-scroll="about">Contact</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="videos" class="section">
+          <div class="container">
+            <div class="section-content">
+              <div class="inner-content">
+                <h2 class="title-section">Vidéos</h2>
+                <p class="subtitle">Tournage et montage seul.</p>
+                <div class="filters" data-filter-group="videos" aria-label="Filtrer les vidéos">
+                  <button class="button button-primary button-sm" data-filter="all">Toutes</button>
+                  <button class="button button-outline button-sm" data-filter="interview">Interview</button>
+                  <button class="button button-outline button-sm" data-filter="évènementiel">Évènementiel</button>
+                  <button class="button button-outline button-sm" data-filter="motion design">Motion design</button>
+                  <button class="button button-outline button-sm" data-filter="autre">Autre</button>
+                </div>
+                <div id="videos-grid" class="grid-gallery"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="photos" class="section">
+          <div class="container">
+            <div class="section-content">
+              <div class="inner-content">
+                <h2 class="title-section">Photos</h2>
+                <p class="subtitle">Ma galerie photo.</p>
+                <div class="filters" data-filter-group="photos" aria-label="Filtrer les photos">
+                  <button class="button button-primary button-sm" data-filter="all">Toutes</button>
+                  <button class="button button-outline button-sm" data-filter="portrait">Portrait</button>
+                  <button class="button button-outline button-sm" data-filter="évènementiel">Évènementiel</button>
+                  <button class="button button-outline button-sm" data-filter="pub">Pub</button>
+                  <button class="button button-outline button-sm" data-filter="autre">Autre</button>
+                </div>
+                <div id="photos-grid" class="grid-gallery"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="graphic" class="section">
+          <div class="container">
+            <div class="section-content">
+              <div class="inner-content">
+                <h2 class="title-section">Graphisme</h2>
+                <p class="subtitle">Mes créations graphiques.</p>
+                <div class="filters" data-filter-group="designs" aria-label="Filtrer les créations graphiques">
+                  <button class="button button-primary button-sm" data-filter="all">Tous</button>
+                  <button class="button button-outline button-sm" data-filter="Entreprise">Entreprise</button>
+                  <button class="button button-outline button-sm" data-filter="Création">Création</button>
+                  <button class="button button-outline button-sm" data-filter="Autre">Autre</button>
+                </div>
+                <div id="designs-grid" class="grid-gallery"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="websites" class="section">
+          <div class="container">
+            <div class="section-content">
+              <div class="inner-content">
+                <h2 class="title-section">Développement</h2>
+                <p class="subtitle">Mes projets data / web.</p>
+                <div id="websites-featured" class="featured-gallery"></div>
+                <div class="filters websites-filters" data-filter-group="websites" aria-label="Filtrer les projets web">
+                  <button class="button button-primary button-sm" data-filter="all">Tous</button>
+                  <button class="button button-outline button-sm" data-filter="web">Web</button>
+                  <button class="button button-outline button-sm" data-filter="data">Data</button>
+                </div>
+                <div id="websites-grid" class="grid-gallery websites-grid"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="container">
+            <div class="section-content">
+              <div class="inner-content about-grid">
+                <div>
+                  <h2 class="title-section">Qui suis-je ?</h2>
+                  <div class="about-copy">
+                    <p>Mon parcours rapidement :</p>
+                    <p>Après un Bac S, j'ai été diplômé d'un Bachelor Web effectué à Hétic. J'ai travaillé pendant presque 5 ans dans un groupe du CAC 40 et aujourd'hui, je suis freelance depuis 3 ans.</p>
+                  </div>
+                  <h3 class="contact-title">Contact</h3>
+                  <p>
+                    <a href="mailto:t@tanguym.fr">t@tanguym.fr</a>
+                    <span class="contact-separator">ou</span>
+                    <a class="text-link" href="https://www.linkedin.com/in/tanguy-mombert-a68b81159/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  </p>
+                </div>
+                <div class="portrait-wrap">
+                  <img src="images/_DSC1998-copie-3.jpeg" alt="Portrait de Tanguy" loading="lazy">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p>© 2026 TanguyM.fr. Tous droits réservés.</p>
+        </div>
+      </footer>
+
+      <button id="scroll-top" class="scroll-to-top" aria-label="Remonter en haut">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>
+      </button>
+    </div>
+
+    <div id="lightbox" class="lightbox is-hidden" role="dialog" aria-modal="true" aria-label="Aperçu">
+      <button id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Élément précédent">‹</button>
+      <button id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Élément suivant">›</button>
+      <button id="lightbox-close" class="lightbox-close" aria-label="Fermer">×</button>
+      <div id="lightbox-content" class="lightbox-content"></div>
+    </div>
+
+    <noscript>JavaScript doit être activé pour afficher le portfolio.</noscript>
+  </body>
+</html>
