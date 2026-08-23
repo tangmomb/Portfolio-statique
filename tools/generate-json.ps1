@@ -1,8 +1,7 @@
 [CmdletBinding()]
 param(
     [string]$WorkbookPath,
-    [string]$OutputDirectory,
-    [string]$ImagesDirectory
+    [string]$OutputDirectory
 )
 
 $ErrorActionPreference = 'Stop'
@@ -10,18 +9,12 @@ $projectRoot = Split-Path -Parent $PSScriptRoot
 
 if (-not $WorkbookPath) { $WorkbookPath = Join-Path $projectRoot 'update.xlsx' }
 if (-not $OutputDirectory) { $OutputDirectory = Join-Path $projectRoot 'data' }
-if (-not $ImagesDirectory) { $ImagesDirectory = Join-Path $projectRoot 'images' }
 
 $WorkbookPath = [IO.Path]::GetFullPath($WorkbookPath)
 $OutputDirectory = [IO.Path]::GetFullPath($OutputDirectory)
-$ImagesDirectory = [IO.Path]::GetFullPath($ImagesDirectory)
 
 if (-not (Test-Path -LiteralPath $WorkbookPath -PathType Leaf)) {
     throw "Classeur introuvable : $WorkbookPath"
-}
-
-if (-not (Test-Path -LiteralPath $ImagesDirectory -PathType Container)) {
-    throw "Dossier d'images introuvable : $ImagesDirectory"
 }
 
 New-Item -ItemType Directory -Force -Path $OutputDirectory | Out-Null
@@ -156,22 +149,6 @@ function Read-WorksheetRows {
     return ,$result
 }
 
-function Convert-ImagePath {
-    param([AllowEmptyString()][string]$Value)
-
-    if ([string]::IsNullOrWhiteSpace($Value)) { return '' }
-    if ($Value -notmatch '^https://storage\.googleapis\.com/[^/]+/(.+)$') { return $Value }
-
-    $filename = [Uri]::UnescapeDataString($Matches[1])
-    $localPath = Join-Path $ImagesDirectory $filename
-    if (Test-Path -LiteralPath $localPath -PathType Leaf) {
-        return ('images/' + $filename.Replace('\', '/'))
-    }
-
-    $warnings.Add("Image locale absente, URL distante conservée : $filename")
-    return $Value
-}
-
 function Convert-RowsToItems {
     param(
         [Parameter(Mandatory = $true)]
@@ -216,9 +193,6 @@ function Convert-RowsToItems {
 
             if ($header -eq 'technologies') {
                 $item[$header] = @($value -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
-            }
-            elseif ($header -eq 'image') {
-                $item[$header] = Convert-ImagePath -Value $value
             }
             else {
                 $item[$header] = $value

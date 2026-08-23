@@ -25,12 +25,10 @@ Le générateur repose uniquement sur PowerShell, déjà fourni avec Windows. Il
 - `data/videos.json` ;
 - `data/photos.json`.
 
-Lorsqu'un média indiqué par une URL Google Storage est présent dans `images`, le site utilise automatiquement son fichier local. Si le média est absent, l'URL distante est conservée et un avertissement est affiché.
-
 ## Ajouter une image
 
 1. Copier l'image dans `images`.
-2. Dans la colonne `image` du classeur, utiliser soit son nom (`mon-image.jpg`), soit son URL Google Storage.
+2. Dans la colonne `image` du classeur, indiquer son nom (`mon-image.jpg`).
 3. Relancer `mettre-a-jour.bat`.
 4. Envoyer les changements sur GitHub :
 

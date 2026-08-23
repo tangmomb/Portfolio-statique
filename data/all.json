@@ -8,7 +8,7 @@
                          "technologies":  [
                                               "Python"
                                           ],
-                         "image":  "images/tennisstats.png",
+                         "image":  "tennisstats.png",
                          "highlight":  "oui"
                      },
                      {
@@ -19,7 +19,7 @@
                          "technologies":  [
                                               "Webflow"
                                           ],
-                         "image":  "images/geocom.png",
+                         "image":  "geocom.png",
                          "highlight":  "oui"
                      },
                      {
@@ -31,7 +31,7 @@
                                               "NextJS",
                                               "NestJS"
                                           ],
-                         "image":  "images/portfolio.png",
+                         "image":  "portfolio.png",
                          "highlight":  "oui"
                      },
                      {
@@ -42,7 +42,7 @@
                          "technologies":  [
                                               "GitHub"
                                           ],
-                         "image":  "images/github.png",
+                         "image":  "github.png",
                          "highlight":  "oui"
                      },
                      {
@@ -53,7 +53,7 @@
                          "technologies":  [
                                               "WordPress"
                                           ],
-                         "image":  "images/cavanine.png",
+                         "image":  "cavanine.png",
                          "highlight":  "non"
                      },
                      {
@@ -64,138 +64,138 @@
                          "technologies":  [
                                               "Webflow"
                                           ],
-                         "image":  "images/kissnfly.png",
+                         "image":  "kissnfly.png",
                          "highlight":  "non"
                      }
                  ],
     "designs":  [
                     {
-                        "image":  "images/full-ms2.jpg",
+                        "image":  "full-ms2.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-h.jpg",
+                        "image":  "full-h.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/inv.jpg",
+                        "image":  "inv.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/portfolio.jpeg",
+                        "image":  "portfolio.jpeg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-6pages2.jpg",
+                        "image":  "full-6pages2.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/info.jpg",
+                        "image":  "info.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-mars.jpg",
+                        "image":  "full-mars.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/maquettes2.jpg",
+                        "image":  "maquettes2.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/sedd3.jpg",
+                        "image":  "sedd3.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/portfolio (1).jpeg",
+                        "image":  "portfolio (1).jpeg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/bookUTP-v1v2.jpg",
+                        "image":  "bookUTP-v1v2.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/bleu.jpg",
+                        "image":  "bleu.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/sedd2.png",
+                        "image":  "sedd2.png",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/maquettes11.jpg",
+                        "image":  "maquettes11.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/SalesEvent2019.jpg",
+                        "image":  "SalesEvent2019.jpg",
                         "category":  "Entreprise",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-tennisstat.jpg",
+                        "image":  "full-tennisstat.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/portfolio (2).jpeg",
+                        "image":  "portfolio (2).jpeg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-NadalMoon.jpg",
+                        "image":  "full-NadalMoon.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/1.jpg",
+                        "image":  "1.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/_DSC1998-copie-3.jpeg",
+                        "image":  "_DSC1998-copie-3.jpeg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/2-light.jpg",
+                        "image":  "2-light.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-etpourqq.PNG",
+                        "image":  "full-etpourqq.PNG",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/1-rouge-light.jpg",
+                        "image":  "1-rouge-light.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/full-yt.jpg",
+                        "image":  "full-yt.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/2-light-2.jpg",
+                        "image":  "2-light-2.jpg",
                         "category":  "Création",
                         "description":  ""
                     },
                     {
-                        "image":  "images/2-light-1.jpg",
+                        "image":  "2-light-1.jpg",
                         "category":  "Création",
                         "description":  ""
                     }
@@ -736,212 +736,212 @@
                ],
     "photos":  [
                    {
-                       "image":  "images/Plan-de-travail-1-copie-4.jpg",
+                       "image":  "Plan-de-travail-1-copie-4.jpg",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-6.jpg",
+                       "image":  "Plan-de-travail-1-copie-6.jpg",
                        "category":  "portrait",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-10.jpg",
+                       "image":  "Plan-de-travail-1-copie-10.jpg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie.jpg",
+                       "image":  "Plan-de-travail-1-copie.jpg",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-5.jpg",
+                       "image":  "Plan-de-travail-1-copie-5.jpg",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-11.jpg",
+                       "image":  "Plan-de-travail-1-copie-11.jpg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-8.jpg",
+                       "image":  "Plan-de-travail-1-copie-8.jpg",
                        "category":  "autre",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-7.jpg",
+                       "image":  "Plan-de-travail-1-copie-7.jpg",
                        "category":  "portrait",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-9.jpg",
+                       "image":  "Plan-de-travail-1-copie-9.jpg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-2.jpg",
+                       "image":  "Plan-de-travail-1-copie-2.jpg",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1.jpg",
+                       "image":  "Plan-de-travail-1.jpg",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/Plan-de-travail-1-copie-3.jpg",
+                       "image":  "Plan-de-travail-1-copie-3.jpg",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/full-photo2.JPG",
+                       "image":  "full-photo2.JPG",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/full-photo6.JPG",
+                       "image":  "full-photo6.JPG",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/full-photo12.JPG",
+                       "image":  "full-photo12.JPG",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/full-photo13.JPG",
+                       "image":  "full-photo13.JPG",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/full-photo14.JPG",
+                       "image":  "full-photo14.JPG",
                        "category":  "évènementiel",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3490-copie.jpeg",
+                       "image":  "_DSC3490-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3479-copie.jpeg",
+                       "image":  "_DSC3479-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3903-copie.jpeg",
+                       "image":  "_DSC3903-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC4241-copie.jpeg",
+                       "image":  "_DSC4241-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3204-copie-2.jpeg",
+                       "image":  "_DSC3204-copie-2.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC5444.jpeg",
+                       "image":  "_DSC5444.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC5911.jpeg",
+                       "image":  "_DSC5911.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC5804.jpeg",
+                       "image":  "_DSC5804.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC0716.jpeg",
+                       "image":  "_DSC0716.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC1104.jpeg",
+                       "image":  "_DSC1104.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC5326.jpeg",
+                       "image":  "_DSC5326.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC1211.jpeg",
+                       "image":  "_DSC1211.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC2431-copie.jpeg",
+                       "image":  "_DSC2431-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC2427-copie.jpeg",
+                       "image":  "_DSC2427-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC7241-1.jpeg",
+                       "image":  "_DSC7241-1.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC2801-copie.jpeg",
+                       "image":  "_DSC2801-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3231-copie.jpeg",
+                       "image":  "_DSC3231-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC2635-copie.jpeg",
+                       "image":  "_DSC2635-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/DSC2922.jpeg",
+                       "image":  "DSC2922.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC6848-copie.jpeg",
+                       "image":  "_DSC6848-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/DSC5588.jpeg",
+                       "image":  "DSC5588.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC6800-copie.jpeg",
+                       "image":  "_DSC6800-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3612-copie.jpeg",
+                       "image":  "_DSC3612-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC3449-copie.jpeg",
+                       "image":  "_DSC3449-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    },
                    {
-                       "image":  "images/_DSC2627-copie.jpeg",
+                       "image":  "_DSC2627-copie.jpeg",
                        "category":  "pub",
                        "description":  ""
                    }

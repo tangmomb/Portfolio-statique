@@ -7,7 +7,7 @@
         "technologies":  [
                              "Python"
                          ],
-        "image":  "images/tennisstats.png",
+        "image":  "tennisstats.png",
         "highlight":  "oui"
     },
     {
@@ -18,7 +18,7 @@
         "technologies":  [
                              "Webflow"
                          ],
-        "image":  "images/geocom.png",
+        "image":  "geocom.png",
         "highlight":  "oui"
     },
     {
@@ -30,7 +30,7 @@
                              "NextJS",
                              "NestJS"
                          ],
-        "image":  "images/portfolio.png",
+        "image":  "portfolio.png",
         "highlight":  "oui"
     },
     {
@@ -41,7 +41,7 @@
         "technologies":  [
                              "GitHub"
                          ],
-        "image":  "images/github.png",
+        "image":  "github.png",
         "highlight":  "oui"
     },
     {
@@ -52,7 +52,7 @@
         "technologies":  [
                              "WordPress"
                          ],
-        "image":  "images/cavanine.png",
+        "image":  "cavanine.png",
         "highlight":  "non"
     },
     {
@@ -63,7 +63,7 @@
         "technologies":  [
                              "Webflow"
                          ],
-        "image":  "images/kissnfly.png",
+        "image":  "kissnfly.png",
         "highlight":  "non"
     }
 ]
