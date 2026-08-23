@@ -2,7 +2,7 @@
     "websites":  [
                      {
                          "title":  "Tennis Winner",
-                         "description":  "Qui a gagné les derniers tournois majeurs et jo ?",
+                         "description":  "Qui a gagné les derniers tournois majeurs et JO ?",
                          "link":  "https://tennisgsolympicsscores-cmxidknbazy5swry5voadm.streamlit.app/",
                          "category":  "data",
                          "technologies":  [
