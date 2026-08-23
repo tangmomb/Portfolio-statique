@@ -1,6 +1,6 @@
-# Portfolio statique
+# Portfolio de Tanguy M.
 
-Version autonome du portfolio de Tanguy M. Elle ne nécessite ni Node.js, ni Next.js, ni NestJS, ni base de données, ni backend en production.
+Ce dépôt contient le site du portfolio et les fichiers utilisés pour gérer son contenu.
 
 ## Mettre à jour le contenu
 
@@ -25,12 +25,12 @@ Le générateur repose uniquement sur PowerShell, déjà fourni avec Windows. Il
 - `data/videos.json` ;
 - `data/photos.json`.
 
-Les URL Google Storage dont le fichier existe dans `images` sont automatiquement remplacées par une adresse locale. Si un média manque, l'URL distante est conservée et un avertissement est affiché.
+Lorsqu'un média indiqué par une URL Google Storage est présent dans `images`, le site utilise automatiquement son fichier local. Si le média est absent, l'URL distante est conservée et un avertissement est affiché.
 
 ## Ajouter une image
 
 1. Copier l'image dans `images`.
-2. Dans la colonne `image` du classeur, utiliser soit son nom (`mon-image.jpg`), soit son ancienne URL Google Storage.
+2. Dans la colonne `image` du classeur, utiliser soit son nom (`mon-image.jpg`), soit son URL Google Storage.
 3. Relancer `mettre-a-jour.bat`.
 4. Envoyer les changements sur GitHub :
 
@@ -42,7 +42,7 @@ Les URL Google Storage dont le fichier existe dans `images` sont automatiquement
 
 ## Tester localement
 
-Les navigateurs empêchent généralement un fichier HTML ouvert par double-clic de lire du JSON local. Double-cliquer sur `apercu.bat`, puis laisser la fenêtre ouverte pendant le test. Cette commande sert seulement à la prévisualisation locale et n'est pas un backend de production.
+Les navigateurs empêchent généralement un fichier HTML ouvert par double-clic de lire du JSON local. Double-cliquer sur `apercu.bat`, puis laisser la fenêtre ouverte pendant le test. Cette commande sert seulement à la prévisualisation locale.
 
 ## Déploiement automatique sur IONOS
 
