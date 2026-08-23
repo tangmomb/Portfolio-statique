@@ -16,20 +16,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Upload website to IONOS
-        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+      - name: Prepare website files
+        run: |
+          mkdir deploy
+          rsync -a --delete \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='deploy/' \
+            --exclude='README.md' \
+            --exclude='update.xlsx' \
+            --exclude='*.bat' \
+            --exclude='tools/' \
+            ./ deploy/
+
+      - name: Upload website to IONOS via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
-          server-dir: /tanguymfr/
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/.github/**
-            README.md
-            update.xlsx
-            *.bat
-            tools/**
+          port: 22
+          sftp_only: true
+          local_path: ./deploy/*
+          remote_path: /tanguymfr/
