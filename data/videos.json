@@ -35,6 +35,13 @@
         "nom":  ""
     },
     {
+        "url":  "https://youtube.com/shorts/Z0cDNZFFeJc",
+        "category":  "motion design",
+        "description":  "Montage pour Les Numériques",
+        "platform":  "youtube",
+        "nom":  ""
+    },
+    {
         "url":  "https://www.youtube.com/watch?v=fDTtN0rGHU0",
         "category":  "interview",
         "description":  "Interview d\u0027un alumni de IonisSTM",
@@ -59,6 +66,13 @@
         "url":  "https://youtube.com/watch?v=FrPdaw0-5MU",
         "category":  "motion design",
         "description":  "Statistiques du Big 3, tennis",
+        "platform":  "youtube",
+        "nom":  ""
+    },
+    {
+        "url":  "https://youtube.com/shorts/5czr8QAv6J4",
+        "category":  "motion design",
+        "description":  "Montage pour Les Numériques",
         "platform":  "youtube",
         "nom":  ""
     },
